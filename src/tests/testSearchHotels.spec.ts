@@ -14,7 +14,6 @@ test.describe('Search hotels in a city in India', () => {
     await hotelSearchPage.enterDestination(`${city}, India`);
     await hotelSearchPage.clickPopularCity();
     await hotelSearchPage.clickSearch();
-    await hotelSearchPage.clickSearch();
 
     const hotelResult = await hotelSearchPage.getHotelResult();
     expect(hotelResult).toContain(city);
