@@ -17,23 +17,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install browsers
-        run: npx playwright install
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
 
       - name: Run tests
         run: npm run test
 
       - name: Generate Allure report
-        run: npm run allure:generate
+        run: npm run test:allure
 
-      - name: Upload Allure report
+      - name: Upload report
         uses: actions/upload-artifact@v4
         with:
-          name: Allure Report
+          name: allure-report
           path: allure-report
-
-      - name: Upload Allure results
-        uses: actions/upload-artifact@v4
-        with:
-          name: Allure Results
-          path: allure-results    

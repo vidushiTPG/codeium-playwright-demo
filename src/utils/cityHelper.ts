@@ -12,7 +12,6 @@ export function getRandomIndianCity(): string {
         'Kochi',
     ];
 
-    const randomIndex = Math.floor(Math.random() * indianCities.length);
-
-    return indianCities[randomIndex];
+    const index = Math.floor(Math.random() * indianCities.length);
+    return indianCities[index];
 }
