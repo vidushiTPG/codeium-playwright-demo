@@ -10,17 +10,17 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v1
         with:
           node-version: 'lts/*'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright browsers
+      - name: Install browsers
         run: npx playwright install
 
-      - name: Run Playwright tests
+      - name: Run tests
         run: npm run test
 
       - name: Generate Allure report
@@ -31,8 +31,9 @@ jobs:
         with:
           name: Allure Report
           path: allure-report
+
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
         with:
           name: Allure Results
-          path: allure-results          
+          path: allure-results    
