@@ -21,12 +21,9 @@ jobs:
         continue-on-error: true
       - name: Upload Allure report
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: Allure report
           path: ./allure-report
-      - name: Upload Allure results
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: Allure results  
-          path: ./allure-results  
+          retention-days: 7
+  
