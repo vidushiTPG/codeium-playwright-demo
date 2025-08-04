@@ -1,17 +1,19 @@
 import { Locator, Page } from '@playwright/test';
 export class HotelSearchPage {
+  private readonly page: Page;
   private readonly destinationInput: Locator;
   private readonly popularCityButton: Locator;
   private readonly checkInDateButton: Locator;
-  private readonly searchedCity: Locator;
+  private readonly searchedCityLocator: Locator;
   private readonly searchButton: Locator;
 
-  constructor(private readonly page: Page) {
-    this.destinationInput = this.page.getByPlaceholder("Enter a destination or property");
-    this.popularCityButton = this.page.locator('//span[@class="Suggestion__boxBadge"]');
-    this.checkInDateButton = this.page.locator('//div[@data-selenium="checkInBox"]');
-    this.searchedCity = this.page.locator('//button[@data-selenium="area-city-text"]//span');
-    this.searchButton = this.page.getByRole('button', { name: 'Search' });
+  constructor(page: Page) {
+    this.page = page;
+    this.destinationInput = page.getByPlaceholder('Enter a destination or property');
+    this.popularCityButton = page.locator('//span[@class="Suggestion__boxBadge"]');
+    this.checkInDateButton = page.locator('//div[@data-selenium="checkInBox"]');
+    this.searchedCityLocator = page.locator('//button[@data-selenium="area-city-text"]//span');
+    this.searchButton = page.getByRole('button', { name: 'Search' });
   }
 
   async enterDestination(destination: string) {
@@ -34,7 +36,7 @@ export class HotelSearchPage {
     await this.page.goto(`${process.env.BASE_URL}/en-in/?ds=qvIotc7QHhj5Qg2u`);
   }
 
-  async getHotelResult() {
-    return await this.searchedCity.first().textContent();
+  async searchedCity() {
+    return this.searchedCityLocator.first().textContent();
   }
 }

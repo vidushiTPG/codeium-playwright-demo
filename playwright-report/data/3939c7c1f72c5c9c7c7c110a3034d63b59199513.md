@@ -1,0 +1,1076 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "Agoda logo Home link":
+      - /url: /en-in/
+      - img "Primary Logo"
+      - img "Site secondary logo"
+    - text: Bundle and save!
+    - link "Flight + Hotel":
+      - /url: /en-in/packages
+    - link "Hotels & Homes":
+      - /url: /en-in/
+    - text: New! Transport
+    - button "Menu"
+  - button "English / India":
+    - img "English / India"
+  - button "Rs."
+  - button "Sign in"
+  - button "Create account"
+  - button "Shopping cart"
+  - button "Menu":
+    - img
+- text:  Pune 1,635 choices
+- button "Check-in 13 Aug 2025 Wednesday":  13 Aug 2025 Wednesday
+- button "Check-out 14 Aug 2025 Thursday":  14 Aug 2025 Thursday
+- button "Guests and rooms 2 adults 1 room":  2 adults 1 room 
+- button "SEARCH"
+- button
+- img "null image"
+- text: Looking for instant coupons? Check out our Coupons & Deals page for today's discounts
+- link "See all coupons":
+  - /url: https://www.agoda.com/deals?cid=1897344
+- figure:
+  - button "Show on map":
+    - img "Show on map"
+  - button "Show on map"
+- text: 0 results found
+- paragraph:
+  - combobox "Text search"
+- region "Search filter":
+  - text: Making a selection within this region will cause content on this page to change. Product listings will update as each option is selected.
+  - heading "Your budget (per night)" [level=3]
+  - group "Your budget (per night)":
+    - slider "MIN"
+    - slider "MAX"
+    - text: Rs. MIN
+    - textbox "Minimum price filter": "0"
+    - text: Rs. MAX
+    - textbox "Maximum price filter": 3,10,500
+  - separator
+  - group "Popular filters for Pune":
+    - heading "Popular filters for Pune" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Internet access"
+        - text: Internet access
+      - listitem:
+        - checkbox "Refrigerator"
+        - text: Refrigerator
+      - listitem:
+        - checkbox "Dinner included"
+        - text: Dinner included
+      - listitem:
+        - checkbox "Breakfast included"
+        - text: Breakfast included
+      - listitem:
+        - checkbox "Lunch included"
+        - text: Lunch included
+      - listitem:
+        - checkbox "Gym/fitness"
+        - text: Gym/fitness
+      - listitem:
+        - checkbox "Airport transfer"
+        - text: Airport transfer
+      - listitem:
+        - checkbox "Free cancellation"
+        - text: Free cancellation
+  - separator
+  - group "Property type":
+    - heading "Property type" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Hotel1162 items"
+        - text: Hotel (1162)
+      - listitem:
+        - checkbox "Resort20 items"
+        - text: Resort (20)
+      - listitem:
+        - checkbox "Guesthouse/bed and breakfast50 items"
+        - text: Guesthouse/bed and breakfast (50)
+      - listitem:
+        - checkbox "Hostel22 items"
+        - text: Hostel (22)
+      - listitem:
+        - checkbox "Apartment/Flat187 items"
+        - text: Apartment/Flat (187)
+      - listitem:
+        - checkbox "Serviced apartment19 items"
+        - text: Serviced apartment (19)
+      - listitem:
+        - checkbox "Homestay14 items"
+        - text: Homestay (14)
+      - listitem:
+        - checkbox "Inn8 items"
+        - text: Inn (8)
+      - listitem:
+        - checkbox "Resort villa7 items"
+        - text: Resort villa (7)
+      - listitem:
+        - checkbox "Entire House82 items"
+        - text: Entire House (82)
+      - listitem:
+        - checkbox "Villa31 items"
+        - text: Villa (31)
+      - listitem:
+        - checkbox "Lodge7 items"
+        - text: Lodge (7)
+  - button "Show 6 more for Property type": Show 6 more
+  - separator
+  - group "Star rating":
+    - heading "Star rating" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Best in Luxury17 items New"
+        - text: Best in Luxury (17) New
+      - listitem:
+        - checkbox "5-Star rating 47 items"
+        - text: 5-Star rating (47)
+      - listitem:
+        - checkbox "4-Star rating 231 items"
+        - text: 4-Star rating (231)
+      - listitem:
+        - checkbox "3-Star rating 907 items"
+        - text: 3-Star rating (907)
+      - listitem:
+        - checkbox "2-Star rating 223 items"
+        - text: 2-Star rating (223)
+      - listitem:
+        - checkbox "1-Star rating 82 items"
+        - text: 1-Star rating (82)
+  - separator
+  - group "Neighborhood":
+    - heading "Neighborhood" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Pune Central426 items Top attractions, City center"
+        - text: Pune Central (426) Top attractions, City center
+        - 'tooltip "tooltip Most popular area Pune Central area has: Darshan Museum Shaniwar Wada Top attractions City center 7.9 /10 Location score"':
+          - text: tooltip Most popular area
+          - paragraph: "Pune Central area has:"
+          - img
+          - paragraph: Darshan Museum
+          - img
+          - paragraph: Shaniwar Wada
+          - img
+          - paragraph: Top attractions
+          - img
+          - paragraph: City center
+          - heading "7.9" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Hinjawadi218 items"
+        - text: Hinjawadi (218)
+        - 'tooltip "tooltip Hinjawadi area has: AB''s - Absolute Barbecues | Hinjewadi, Pune Mezza 9 Family Fine dine Restaurant & Banquets 7.4 /10 Location score"':
+          - text: tooltip
+          - paragraph: "Hinjawadi area has:"
+          - img
+          - paragraph: AB's - Absolute Barbecues | Hinjewadi, Pune
+          - img
+          - paragraph: Mezza 9 Family Fine dine Restaurant & Banquets
+          - heading "7.4" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Pimpri Chinchwad213 items"
+        - text: Pimpri Chinchwad (213)
+        - 'tooltip "tooltip Couple favorite area Pimpri Chinchwad area has: Sentosa Water Park MCA Cricket Stadium 7.2 /10 Location score"':
+          - text: tooltip Couple favorite area
+          - paragraph: "Pimpri Chinchwad area has:"
+          - img
+          - paragraph: Sentosa Water Park
+          - img
+          - paragraph: MCA Cricket Stadium
+          - heading "7.2" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Koregaon Park170 items Nightlife, Luxury stay"
+        - text: Koregaon Park (170) Nightlife, Luxury stay
+        - 'tooltip "tooltip Koregaon Park area has: Lavasa International Convention Centre Osho Teerth Park Nightlife Luxury stay 8.4 /10 Location score"':
+          - text: tooltip
+          - paragraph: "Koregaon Park area has:"
+          - img
+          - paragraph: Lavasa International Convention Centre
+          - img
+          - paragraph: Osho Teerth Park
+          - img
+          - paragraph: Nightlife
+          - img
+          - paragraph: Luxury stay
+          - heading "8.4" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Pune Airport149 items"
+        - text: Pune Airport (149)
+        - 'tooltip "tooltip Pune Airport area has: Aga Khan Palace Phoenix Market City 8.1 /10 Location score"':
+          - text: tooltip
+          - paragraph: "Pune Airport area has:"
+          - img
+          - paragraph: Aga Khan Palace
+          - img
+          - paragraph: Phoenix Market City
+          - heading "8.1" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Wagholi144 items"
+        - text: Wagholi (144)
+        - 'tooltip "tooltip Wagholi area has: Dagadusheth Halwai Ganapati Temple Amanora Mall 6.3 /10 Location score"':
+          - text: tooltip
+          - paragraph: "Wagholi area has:"
+          - img
+          - paragraph: Dagadusheth Halwai Ganapati Temple
+          - img
+          - paragraph: Amanora Mall
+          - heading "6.3" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Kharadi107 items"
+        - text: Kharadi (107)
+        - 'tooltip "tooltip Kharadi area has: Shiv Shakti Pure Veg Family Restaurant Texas Tower 6.7 /10 Location score"':
+          - text: tooltip
+          - paragraph: "Kharadi area has:"
+          - img
+          - paragraph: Shiv Shakti Pure Veg Family Restaurant
+          - img
+          - paragraph: Texas Tower
+          - heading "6.7" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Jadhav wadi44 items"
+        - text: Jadhav wadi (44)
+      - listitem:
+        - checkbox "Lavale30 items"
+        - text: Lavale (30)
+        - 'tooltip "tooltip Lavale area has: Sri Balaji Mandir Shri Satya Sai Pandurang Kshetra 8.5 /10 Location score"':
+          - text: tooltip
+          - paragraph: "Lavale area has:"
+          - img
+          - paragraph: Sri Balaji Mandir
+          - img
+          - paragraph: Shri Satya Sai Pandurang Kshetra
+          - heading "8.5" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Magarpatta City27 items"
+        - text: Magarpatta City (27)
+        - 'tooltip "tooltip Magarpatta City area has: Seasons Mall The Cult - Terra | House (Restaurant) 8.4 /10 Location score"':
+          - text: tooltip
+          - paragraph: "Magarpatta City area has:"
+          - img
+          - paragraph: Seasons Mall
+          - img
+          - paragraph: The Cult - Terra | House (Restaurant)
+          - heading "8.4" [level=4]
+          - paragraph: /10
+          - paragraph: Location score
+      - listitem:
+        - checkbox "Thakursai24 items"
+        - text: Thakursai (24)
+      - listitem:
+        - checkbox "Ramnagar20 items Top attractions"
+        - text: Ramnagar (20) Top attractions
+  - button "Show 7 more for Neighborhood": Show 7 more
+  - separator
+  - group "Room offers":
+    - heading "Room offers" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Breakfast included560 items"
+        - text: Breakfast included (560)
+      - listitem:
+        - checkbox "Dinner included98 items"
+        - text: Dinner included (98)
+      - listitem:
+        - checkbox "Lunch included39 items"
+        - text: Lunch included (39)
+      - listitem:
+        - checkbox "Late check-out7 items"
+        - text: Late check-out (7)
+      - listitem:
+        - checkbox "Early check-in 5 items"
+        - text: Early check-in (5)
+      - listitem:
+        - checkbox "Outside food delivery allowed3 items"
+        - text: Outside food delivery allowed (3)
+      - listitem:
+        - checkbox "Car rental2 items"
+        - text: Car rental (2)
+      - listitem:
+        - checkbox "Vegetarian1 item"
+        - text: Vegetarian (1)
+  - separator
+  - group "Payment options":
+    - heading "Payment options" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Free cancellation1038 items"
+        - text: Free cancellation (1038)
+      - listitem:
+        - checkbox "Pay at the hotel782 items"
+        - text: Pay at the hotel (782)
+      - listitem:
+        - checkbox "Pay now759 items"
+        - text: Pay now (759)
+      - listitem:
+        - checkbox "Book without credit card551 items"
+        - text: Book without credit card (551)
+  - separator
+  - group "Property facilities":
+    - heading "Property facilities" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Swimming pool78 items"
+        - text: Swimming pool (78)
+      - listitem:
+        - checkbox "Internet951 items"
+        - text: Internet (951)
+      - listitem:
+        - checkbox "Car park825 items"
+        - text: Car park (825)
+      - listitem:
+        - checkbox "Airport transfer172 items"
+        - text: Airport transfer (172)
+      - listitem:
+        - checkbox "Gym/fitness120 items"
+        - text: Gym/fitness (120)
+      - listitem:
+        - checkbox "Front desk [24-hour]814 items"
+        - text: Front desk [24-hour] (814)
+      - listitem:
+        - checkbox "Family/child friendly576 items"
+        - text: Family/child friendly (576)
+      - listitem:
+        - checkbox "Non-smoking369 items"
+        - text: Non-smoking (369)
+      - listitem:
+        - checkbox "Spa/sauna41 items"
+        - text: Spa/sauna (41)
+      - listitem:
+        - checkbox "Restaurants325 items"
+        - text: Restaurants (325)
+      - listitem:
+        - checkbox "Smoking area343 items"
+        - text: Smoking area (343)
+      - listitem:
+        - checkbox "Pets allowed208 items"
+        - text: Pets allowed (208)
+  - button "Show 4 more for Property facilities": Show 4 more
+  - separator
+  - group "Guest rating":
+    - heading "Guest rating" [level=3]
+    - list:
+      - listitem:
+        - radio "9+ Exceptional135 items"
+        - paragraph: 9+
+        - text: Exceptional (135)
+      - listitem:
+        - radio "8+ Excellent322 items"
+        - paragraph: 8+
+        - text: Excellent (322)
+      - listitem:
+        - radio "7+ Very good504 items"
+        - paragraph: 7+
+        - text: Very good (504)
+      - listitem:
+        - radio "6+ Good674 items"
+        - paragraph: 6+
+        - text: Good (674)
+  - separator
+  - group "Distance to center":
+    - heading "Distance to center" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Inside city center62 items"
+        - text: Inside city center (62)
+      - listitem:
+        - checkbox "<2 km to center108 items"
+        - text: <2 km to center (108)
+      - listitem:
+        - checkbox "2-5 km to center154 items"
+        - text: 2-5 km to center (154)
+      - listitem:
+        - checkbox "5-10 km to center659 items"
+        - text: 5-10 km to center (659)
+      - listitem:
+        - checkbox ">10 km to center648 items"
+        - text: ">10 km to center (648)"
+  - separator
+  - group "Room amenities":
+    - heading "Room amenities" [level=3]
+    - list:
+      - listitem:
+        - checkbox "TV850 items"
+        - text: TV (850)
+      - listitem:
+        - checkbox "Air conditioning812 items"
+        - text: Air conditioning (812)
+      - listitem:
+        - checkbox "Internet access289 items"
+        - text: Internet access (289)
+      - listitem:
+        - checkbox "Coffee/tea maker255 items"
+        - text: Coffee/tea maker (255)
+      - listitem:
+        - checkbox "Balcony/terrace254 items"
+        - text: Balcony/terrace (254)
+      - listitem:
+        - checkbox "Ironing facilities249 items"
+        - text: Ironing facilities (249)
+      - listitem:
+        - checkbox "Refrigerator219 items"
+        - text: Refrigerator (219)
+      - listitem:
+        - checkbox "Washing machine174 items"
+        - text: Washing machine (174)
+      - listitem:
+        - checkbox "Bathtub129 items"
+        - text: Bathtub (129)
+      - listitem:
+        - checkbox "Heating122 items"
+        - text: Heating (122)
+      - listitem:
+        - checkbox "Kitchen80 items"
+        - text: Kitchen (80)
+      - listitem:
+        - checkbox "Private pool34 items"
+        - text: Private pool (34)
+      - listitem:
+        - checkbox "Pets allowed in room12 items"
+        - text: Pets allowed in room (12)
+  - separator
+  - group "Bed type":
+    - heading "Bed type" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Double620 items"
+        - text: Double (620)
+      - listitem:
+        - checkbox "Single/twin388 items"
+        - text: Single/twin (388)
+      - listitem:
+        - checkbox "Queen276 items"
+        - text: Queen (276)
+      - listitem:
+        - checkbox "King230 items"
+        - text: King (230)
+      - listitem:
+        - checkbox "Bunk bed22 items"
+        - text: Bunk bed (22)
+  - separator
+  - group "Popular with families":
+    - heading "Popular with families" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Kids stay for free"
+        - text: Kids stay for free
+  - separator
+  - group "Location rating":
+    - heading "Location rating" [level=3]
+    - list:
+      - listitem:
+        - radio "9+ Exceptional165 items"
+        - paragraph: 9+
+        - text: Exceptional (165)
+      - listitem:
+        - radio "8+ Excellent418 items"
+        - paragraph: 8+
+        - text: Excellent (418)
+      - listitem:
+        - radio "7+ Very good604 items"
+        - paragraph: 7+
+        - text: Very good (604)
+  - separator
+  - group "Looking for something special?":
+    - heading "Looking for something special?" [level=3]
+    - list:
+      - listitem:
+        - button "Great for Groups"
+      - listitem:
+        - button "Great for Families"
+      - listitem:
+        - button "Pets Allowed"
+      - listitem:
+        - button "Workation Friendly"
+  - separator
+  - group "Near popular attractions":
+    - heading "Near popular attractions" [level=3]
+    - list:
+      - listitem:
+        - checkbox "Shaniwar Wada48 items"
+        - text: Shaniwar Wada (48)
+      - listitem:
+        - checkbox "Darshan Museum31 items"
+        - text: Darshan Museum (31)
+      - listitem:
+        - checkbox "Aga Khan Palace29 items"
+        - text: Aga Khan Palace (29)
+      - listitem:
+        - checkbox "Balewadi Stadium13 items"
+        - text: Balewadi Stadium (13)
+      - listitem:
+        - checkbox "Sri Balaji Mandir9 items"
+        - text: Sri Balaji Mandir (9)
+      - listitem:
+        - checkbox "Sarasbaug Ganpati Temple9 items"
+        - text: Sarasbaug Ganpati Temple (9)
+      - listitem:
+        - checkbox "Laxmi Road8 items"
+        - text: Laxmi Road (8)
+      - listitem:
+        - checkbox "Chatushrungi Mata Temple8 items"
+        - text: Chatushrungi Mata Temple (8)
+      - listitem:
+        - checkbox "Katraj Jain Temple6 items"
+        - text: Katraj Jain Temple (6)
+      - listitem:
+        - checkbox "Dagadusheth Halwai Ganapati Temple3 items"
+        - text: Dagadusheth Halwai Ganapati Temple (3)
+  - separator
+  - group "Number of bedrooms":
+    - heading "Number of bedrooms" [level=3]
+    - list:
+      - listitem:
+        - checkbox "1 bedroom/studio819 items"
+        - text: 1 bedroom/studio (819)
+      - listitem:
+        - checkbox "2 bedrooms74 items"
+        - text: 2 bedrooms (74)
+      - listitem:
+        - checkbox "3+ bedrooms66 items"
+        - text: 3+ bedrooms (66)
+  - separator
+  - group "Popular hotel brands":
+    - heading "Popular hotel brands" [level=3]
+    - list:
+      - listitem:
+        - checkbox "OYO Rooms238 items"
+        - text: OYO Rooms (238)
+      - listitem:
+        - checkbox "Treebo Hotels53 items"
+        - text: Treebo Hotels (53)
+      - listitem:
+        - checkbox "FabHotels129 items"
+        - text: FabHotels (129)
+      - listitem:
+        - checkbox "Rajeev Sharma18 items"
+        - text: Rajeev Sharma (18)
+      - listitem:
+        - checkbox "StayVista13 items"
+        - text: StayVista (13)
+      - listitem:
+        - checkbox "Marriott Hotels and Resorts9 items"
+        - text: Marriott Hotels and Resorts (9)
+      - listitem:
+        - checkbox "The Private Stay8 items"
+        - text: The Private Stay (8)
+      - listitem:
+        - checkbox "Prospera Hospitality Pvt Ltd7 items"
+        - text: Prospera Hospitality Pvt Ltd (7)
+      - listitem:
+        - checkbox "Concept Hospitality5 items"
+        - text: Concept Hospitality (5)
+      - listitem:
+        - checkbox "Lemon Tree Hotels4 items"
+        - text: Lemon Tree Hotels (4)
+- region "Announcement":
+  - img "Agoda Flights"
+  - heading "BOOK YOUR BEST FLIGHT ON AGODA TODAY" [level=5]
+  - paragraph: Instantly search and book over 200 airlines worldwide!
+  - button "Search flights"
+- region "Sort options":
+  - paragraph: Sort by
+  - group "Sort by":
+    - button "Best match"
+    - button "Top reviewed"
+    - button "Lowest price first"
+    - button "Distance"
+    - button "Hot Deals!"
+- list:
+  - listitem:
+    - group "Property Card":
+      - region:
+        - group:
+          - img "Property View 1"
+        - group:
+          - img "Suite room"
+        - group:
+          - img "Lobby"
+        - group:
+          - img "Swimming pool"
+        - group:
+          - img "Coffee shop"
+        - group:
+          - img "Bar"
+        - group:
+          - img "Ballroom"
+        - group:
+          - img "Suite room"
+        - group:
+          - img "Banquet hall"
+        - group:
+          - img "Swimming pool"
+      - button
+      - text: 1/10 Newly renovated
+      - button "Add to saved list"
+      - banner:
+        - link "Radisson Blu Pune Hinjawadi":
+          - /url: /en-in/radisson-blu-pune-hinjawadi/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+        - button "4.5 stars out of 5"
+        - tooltip "tooltip Star rating Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+          - text: tooltip
+          - paragraph: Star rating
+          - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+        - button "Hinjawadi, Pune - 12.5 km to center"
+        - tooltip "tooltip Nearest transportation options • Akurdi is within 7.6 km • Pimpri is within 7.9 km":
+          - text: tooltip
+          - paragraph: Nearest transportation options
+          - list:
+            - listitem:
+              - paragraph: •
+              - paragraph: Akurdi is within 7.6 km
+            - listitem:
+              - paragraph: •
+              - paragraph: Pimpri is within 7.9 km
+      - 'button "This property offers: Breakfast Parking Free WiFi +4"':
+        - paragraph: "This property offers:"
+        - text: Breakfast Parking Free WiFi +4
+      - 'tooltip "tooltip This property offers: • Breakfast • Parking • Free WiFi • Welcome drink • Dinner included • Selected beverages [alcoholic] • Express check-in"':
+        - text: tooltip
+        - paragraph: "This property offers:"
+        - list:
+          - listitem:
+            - paragraph: •
+            - paragraph: Breakfast
+          - listitem:
+            - paragraph: •
+            - paragraph: Parking
+          - listitem:
+            - paragraph: •
+            - paragraph: Free WiFi
+          - listitem:
+            - paragraph: •
+            - paragraph: Welcome drink
+          - listitem:
+            - paragraph: •
+            - paragraph: Dinner included
+          - listitem:
+            - paragraph: •
+            - paragraph: Selected beverages [alcoholic]
+          - listitem:
+            - paragraph: •
+            - paragraph: Express check-in
+      - complementary:
+        - button "Promoted"
+        - tooltip "tooltip Agoda earns increased commission on bookings at this property. Commission earned by Agoda affects the order of your search results.":
+          - text: tooltip
+          - paragraph: Agoda earns increased commission on bookings at this property. Commission earned by Agoda affects the order of your search results.
+      - button "Average rating Excellent 8.0 out of 10 with 582 reviews"
+      - heading "Sorry, there is no content available." [level=5]
+      - text: Per night before taxes and fees
+      - complementary:
+        - list:
+          - listitem:
+            - paragraph: "-46%"
+            - 'button "Original price: 11,800"'
+            - tooltip "tooltip The highest bookable price for this room type within a 30-day window around your check-in date."
+          - listitem: Rs. 6,375
+  - listitem:
+    - group "Property Card":
+      - region:
+        - group:
+          - img "Exterior view"
+        - group:
+          - img "Guestroom"
+        - group:
+          - img "Food and beverages"
+        - group:
+          - img "Lobby"
+        - group:
+          - img "Bar/lounge"
+        - group:
+          - img "Playground"
+        - group:
+          - img "Restaurant"
+        - group:
+          - img "Bar/lounge"
+        - group:
+          - img "Restaurant"
+        - group:
+          - img "Property View 10"
+      - text: 1/10
+      - button "2024 Award"
+      - tooltip "tooltip Awarded as a top choice of Agoda travelers in 2024.":
+        - text: tooltip
+        - paragraph: Awarded as a top choice of Agoda travelers in 2024.
+      - button "Add to saved list"
+      - banner:
+        - link "Royal Orchid Golden Suites Pune":
+          - /url: /en-in/royal-orchid-golden-suites-hotel/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&tspTypes=-1&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+        - button "4 stars out of 5"
+        - tooltip "tooltip Star rating Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+          - text: tooltip
+          - paragraph: Star rating
+          - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+        - button "Koregaon Park, Pune - 5.9 km to center"
+        - tooltip "tooltip Nearest transportation options • Ghorpadi is within 2.5 km • Hadapsar is within 2.9 km":
+          - text: tooltip
+          - paragraph: Nearest transportation options
+          - list:
+            - listitem:
+              - paragraph: •
+              - paragraph: Ghorpadi is within 2.5 km
+            - listitem:
+              - paragraph: •
+              - paragraph: Hadapsar is within 2.9 km
+      - 'button "This property offers: Breakfast Free fitness center access +3"':
+        - paragraph: "This property offers:"
+        - text: Breakfast Free fitness center access +3
+      - 'tooltip "tooltip This property offers: • Breakfast • Free fitness center access • Welcome drink • Parking • Free WiFi"':
+        - text: tooltip
+        - paragraph: "This property offers:"
+        - list:
+          - listitem:
+            - paragraph: •
+            - paragraph: Breakfast
+          - listitem:
+            - paragraph: •
+            - paragraph: Free fitness center access
+          - listitem:
+            - paragraph: •
+            - paragraph: Welcome drink
+          - listitem:
+            - paragraph: •
+            - paragraph: Parking
+          - listitem:
+            - paragraph: •
+            - paragraph: Free WiFi
+      - complementary:
+        - button "Promoted"
+        - tooltip "tooltip Agoda earns increased commission on bookings at this property. Commission earned by Agoda affects the order of your search results.":
+          - text: tooltip
+          - paragraph: Agoda earns increased commission on bookings at this property. Commission earned by Agoda affects the order of your search results.
+        - button "Boosted"
+        - tooltip "tooltip This property is trending upward in views by travelers with similar searches to yours.":
+          - text: tooltip
+          - paragraph: This property is trending upward in views by travelers with similar searches to yours.
+      - complementary:
+        - list:
+          - listitem: Domestic Deal
+      - button "Average rating Excellent 8.0 out of 10 with 1,640 reviews"
+      - heading "Sorry, there is no content available." [level=5]
+      - text: Per night before taxes and fees
+      - complementary:
+        - list:
+          - listitem: Rs. 4,500
+      - text: + FREE CANCELLATION
+- list:
+  - listitem:
+    - group "Property Card":
+      - region:
+        - group:
+          - img "Property View 1"
+        - group:
+          - img "Bed"
+        - group:
+          - img "Swimming pool [outdoor]"
+        - group:
+          - img "Reception"
+        - group:
+          - img "Restaurant"
+        - group:
+          - img "Reception"
+        - group:
+          - img "Parking lot"
+        - group:
+          - img "Swimming pool [outdoor]"
+        - group:
+          - img "Swimming pool [outdoor]"
+        - group:
+          - img "Bed"
+      - text: 1/10
+      - button "Add to saved list"
+      - banner:
+        - link "Click Hotel Sagar Plaza Chakan Pune":
+          - /url: /en-in/vits-sagar-plaza-t/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+        - button "3 stars out of 5"
+        - tooltip "tooltip Star rating Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+          - text: tooltip
+          - paragraph: Star rating
+          - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+        - button "Hinjawadi, Pune - 12.1 km to center"
+      - 'button "This property offers: Breakfast Free fitness center access +4"':
+        - paragraph: "This property offers:"
+        - text: Breakfast Free fitness center access +4
+      - 'tooltip "tooltip This property offers: • Breakfast • Free fitness center access • Parking • Express check-in • Dinner included • Free WiFi"':
+        - text: tooltip
+        - paragraph: "This property offers:"
+        - list:
+          - listitem:
+            - paragraph: •
+            - paragraph: Breakfast
+          - listitem:
+            - paragraph: •
+            - paragraph: Free fitness center access
+          - listitem:
+            - paragraph: •
+            - paragraph: Parking
+          - listitem:
+            - paragraph: •
+            - paragraph: Express check-in
+          - listitem:
+            - paragraph: •
+            - paragraph: Dinner included
+          - listitem:
+            - paragraph: •
+            - paragraph: Free WiFi
+      - complementary:
+        - button "Promoted"
+        - tooltip "tooltip Agoda earns increased commission on bookings at this property. Commission earned by Agoda affects the order of your search results.":
+          - text: tooltip
+          - paragraph: Agoda earns increased commission on bookings at this property. Commission earned by Agoda affects the order of your search results.
+      - button "Average rating Excellent 8.1 out of 10 with 116 reviews"
+      - heading "Sorry, there is no content available." [level=5]
+      - text: Per night before taxes and fees
+      - complementary:
+        - list:
+          - listitem:
+            - paragraph: "-37%"
+            - 'button "Original price: 5,680"'
+            - tooltip "tooltip The highest bookable price for this room type within a 30-day window around your check-in date."
+          - listitem: Rs. 3,600
+      - text: + FREE CANCELLATION
+  - listitem:
+    - group "Property Card":
+      - img
+      - paragraph: DOUBLE DAY
+      - paragraph: Limited time offer
+  - listitem:
+    - group "Property Card":
+      - img
+      - paragraph: INDEPENDENCE
+      - paragraph: Limited time offer
+  - listitem:
+    - group "Property Card"
+  - listitem:
+    - group "Property Card"
+- list:
+  - listitem:
+    - group "Property Card"
+- heading "Limited Time Sale" [level=3]
+- region "Limited Time Sale carousel":
+  - link "Hotel Parc Estique 4 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 7.8 Very good 1,330 reviews Pune Airport, Pune Rs. 7,000 Rs. 3,407 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/keys-prima-parc-estique/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: Hotel Parc Estique
+    - button "4 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 7.8 Very good
+    - paragraph: 1,330 reviews
+    - text: Pune Airport, Pune Rs. 7,000 Rs. 3,407 Per night before taxes and fees (2 adults)
+  - link "Treebo Premium Niraali Executive, Hinjewadi 3 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 7.3 Very good 510 reviews Hinjawadi, Pune Rs. 6,851 Rs. 2,775 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/treebo-trend-niraali-executive-h22217376/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: Treebo Premium Niraali Executive, Hinjewadi
+    - button "3 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 7.3 Very good
+    - paragraph: 510 reviews
+    - text: Hinjawadi, Pune Rs. 6,851 Rs. 2,775 Per night before taxes and fees (2 adults)
+  - link "The Beacon Hotel NIBM, Pune 3 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 8.3 Excellent 52 reviews Mohammed Wadi, Pune Rs. 6,335 Rs. 2,380 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/the-beacon-hotel-nibm-pune/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: The Beacon Hotel NIBM, Pune
+    - button "3 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 8.3 Excellent
+    - paragraph: 52 reviews
+    - text: Mohammed Wadi, Pune Rs. 6,335 Rs. 2,380 Per night before taxes and fees (2 adults)
+  - link "AUHTEL BHS 3 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 7.9 Very good 540 reviews Pune Central, Pune Rs. 2,000 Rs. 1,558 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/auhtel-bhs/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: AUHTEL BHS
+    - button "3 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 7.9 Very good
+    - paragraph: 540 reviews
+    - text: Pune Central, Pune Rs. 2,000 Rs. 1,558 Per night before taxes and fees (2 adults)
+  - link "Townhouse Somani TC 4 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 6.4 Good 1,082 reviews Pimpri Chinchwad, Pune Rs. 8,739 Rs. 1,831 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/oyo-townhouse-099-somani-tc/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: Townhouse Somani TC
+    - button "4 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 6.4 Good
+    - paragraph: 1,082 reviews
+    - text: Pimpri Chinchwad, Pune Rs. 8,739 Rs. 1,831 Per night before taxes and fees (2 adults)
+  - link "The Corinthians Resort 5 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 8.8 Excellent 1,873 reviews Mohammed Wadi, Pune Rs. 5,798 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/the-corinthians-resort-club/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: The Corinthians Resort
+    - button "5 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 8.8 Excellent
+    - paragraph: 1,873 reviews
+    - text: Mohammed Wadi, Pune Rs. 5,798 Per night before taxes and fees (2 adults)
+  - link "Treebo Blossom - Viman Nagar 3 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 7.0 Very good 307 reviews Pune Airport, Pune Rs. 5,568 Rs. 2,255 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/treebo-trend-blossom/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: Treebo Blossom - Viman Nagar
+    - button "3 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 7.0 Very good
+    - paragraph: 307 reviews
+    - text: Pune Airport, Pune Rs. 5,568 Rs. 2,255 Per night before taxes and fees (2 adults)
+  - link "RA Residence 3 star tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect. 8.0 Excellent 840 reviews Pune Central, Pune Rs. 6,000 Rs. 2,317 Per night before taxes and fees (2 adults)":
+    - /url: /en-in/ra-residence/hotel/pune-in.html?countryId=35&finalPriceView=1&isShowMobileAppPrice=false&cid=-1&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2025-08-13&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=1&showReviewSubmissionEntry=false&currencyCode=INR&isFreeOccSearch=false&los=1&searchrequestid=554d8d4e-e9e4-4b15-b8d1-0bb1eba925f3
+    - paragraph: RA Residence
+    - button "3 star"
+    - tooltip "tooltip Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.":
+      - text: tooltip
+      - paragraph: Gold star ratings are provided by the property to reflect the comfort, facilities, and amenities you can expect.
+    - paragraph: 8.0 Excellent
+    - paragraph: 840 reviews
+    - text: Pune Central, Pune Rs. 6,000 Rs. 2,317 Per night before taxes and fees (2 adults)
+  - button "Next slide"
+  - button "Go to slide 1"
+  - button "Go to slide 2"
+  - button "Go to slide 3"
+- list:
+  - listitem:
+    - group "Property Card"
+  - listitem:
+    - group "Property Card"
+- list:
+  - listitem:
+    - group "Property Card"
+- text: Page 1 of 19
+- button "Next"
+- button "Download App":
+  - img
+- contentinfo:
+  - heading "Help" [level=5]
+  - list:
+    - listitem:
+      - link "Help center":
+        - /url: /en-in/info/contact.html
+        - paragraph: Help center
+    - listitem:
+      - link "FAQs":
+        - /url: /en-in/info/contact.html
+        - paragraph: FAQs
+    - listitem:
+      - link "Privacy policy":
+        - /url: /en-in/info/privacy.html
+        - paragraph: Privacy policy
+    - listitem:
+      - link "Cookie policy":
+        - /url: /en-in/info/privacy.html#cookies
+        - paragraph: Cookie policy
+    - listitem:
+      - link "Terms of use":
+        - /url: /en-in/info/termsofuse.html
+        - paragraph: Terms of use
+    - listitem:
+      - link "Manage cookie settings":
+        - /url: /en-in/privacy-settings
+        - paragraph: Manage cookie settings
+    - listitem:
+      - link "Digital Services Act (EU)":
+        - /url: /en-in/info/eu-digital-services-act.html
+        - paragraph: Digital Services Act (EU)
+    - listitem:
+      - link "Content guidelines & reporting":
+        - /url: /en-in/info/eu-digital-services-act.html#CM
+        - paragraph: Content guidelines & reporting
+    - listitem:
+      - link "Modern Slavery Statement":
+        - /url: //www.bookingholdings.com/modern-slavery-statement/
+        - paragraph: Modern Slavery Statement
+  - heading "Company" [level=5]
+  - list:
+    - listitem:
+      - link "About us":
+        - /url: /en-in/about-agoda
+        - paragraph: About us
+    - listitem:
+      - link "Careers":
+        - /url: //careersatagoda.com
+        - paragraph: Careers
+    - listitem:
+      - link "Press":
+        - /url: //mediaroom.agoda.com
+        - paragraph: Press
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+        - paragraph: Blog
+    - listitem:
+      - link "PointsMAX":
+        - /url: //www.agoda.com/en-in/pointsmax.html
+        - paragraph: PointsMAX
+  - heading "Destinations" [level=5]
+  - list:
+    - listitem:
+      - link "Countries/Territories":
+        - /url: //www.agoda.com/en-in/world.html
+        - paragraph: Countries/Territories
+    - listitem:
+      - link "All Flight Routes":
+        - /url: //www.agoda.com/en-in/flights/world.html
+        - paragraph: All Flight Routes
+  - heading "Partner with us" [level=5]
+  - list:
+    - listitem:
+      - link "YCS partner portal":
+        - /url: ////ycs.agoda.com/en-in
+        - paragraph: YCS partner portal
+    - listitem:
+      - link "Partner Hub":
+        - /url: //partnerhub.agoda.com/
+        - paragraph: Partner Hub
+    - listitem:
+      - link "Advertise on Agoda":
+        - /url: //partnerhub.agoda.com/advertising-solutions/
+        - paragraph: Advertise on Agoda
+    - listitem:
+      - link "Affiliates":
+        - /url: ////partners.agoda.com/en-in/index.html
+        - paragraph: Affiliates
+    - listitem:
+      - link "Agoda API Documentation":
+        - /url: //developer.agoda.com/
+        - paragraph: Agoda API Documentation
+  - heading "Get the app" [level=5]
+  - list:
+    - listitem:
+      - link "iOS app":
+        - /url: //app.appsflyer.com/id440676901?pid=direct&c=hotel_page_footer&af_siteid=1716632&site_id=1716632&af_sub1=desktop
+        - paragraph: iOS app
+    - listitem:
+      - link "Android app":
+        - /url: //app.appsflyer.com/com.agoda.mobile.consumer?pid=direct&c=hotel_page_footer&af_siteid=1716632&site_id=1716632&af_sub1=desktop
+        - paragraph: Android app
+  - paragraph: All material herein © 2005–2025 Agoda Company Pte. Ltd. All Rights Reserved.
+  - paragraph: Agoda is part of Booking Holdings Inc., the world leader in online travel & related services.
+  - img "Agoda logo"
+  - img "Priceline logo"
+  - img "Kayak logo"
+  - img "Booking.com logo"
+  - img "Open Table logo"
+```

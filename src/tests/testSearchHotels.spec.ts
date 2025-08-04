@@ -2,18 +2,22 @@ import { test, expect } from '@playwright/test';
 import { HotelSearchPage } from '../pages/hotelSearchPage';
 import { getRandomIndianCity } from '../utils/cityHelper';
 
-test.describe('Search hotels in a city', ( ) => {
+test.describe('Search hotels in a random Indian city', () => {
+  let hotelSearchPage: HotelSearchPage;
 
-  test('should search for hotels in a city', async ({page}) => {
-      const hotelSearchPage = new HotelSearchPage(page);
-      await hotelSearchPage.goto()
+  test.beforeEach(async ({ page }) => {
+    hotelSearchPage = new HotelSearchPage(page);
+    await hotelSearchPage.goto();
+  });
+
+  test('should search hotels in a random Indian city', async () => {
     const city = getRandomIndianCity();
     await hotelSearchPage.enterDestination(`${city}, India`);
     await hotelSearchPage.clickPopularCity();
     await hotelSearchPage.clickCheckInDate();
     await hotelSearchPage.clickSearch();
 
-    const hotelResult = await hotelSearchPage.getHotelResult();
+    const hotelResult = await hotelSearchPage.searchedCity;
     expect(hotelResult).toContain(city);
   });
 });

@@ -1,11 +1,11 @@
 | Test Case ID | Test Type | Description | Test Steps | Expected Result |
 | --- | --- | --- | --- | --- |
-| QA-001 | Positive | Search for hotels in Goa with valid dates | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter valid checkin and checkout dates <br> 4. Click Search | Hotels in Goa are displayed |
-| QA-002 | Positive | Search for hotels in Goa with valid dates and sort by rating | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter valid checkin and checkout dates <br> 4. Click Sort by Rating <br> 5. Click Search | Hotels in Goa are displayed sorted by rating |
-| QA-003 | Positive | Search for hotels in Goa with valid dates and filter by price | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter valid checkin and checkout dates <br> 4. Click Filter by Price <br> 5. Select a price range <br> 6. Click Search | Hotels in Goa are displayed filtered by price |
-| QA-004 | Negative | Search for hotels in Goa with invalid dates | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter invalid checkin and checkout dates <br> 4. Click Search | Error message is displayed |
-| QA-005 | Negative | Search for hotels in Goa with missing fields | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Click Search without entering checkin and checkout dates | Error message is displayed |
-| QA-006 | Negative | Search for hotels in Goa with unsupported combinations | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter valid checkin and checkout dates <br> 4. Select a star rating <br> 5. Select a price range <br> 6. Click Search | Error message is displayed |
-| QA-007 | Edge Case | Search for hotels in Goa with checkin date same as today's date | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter today's date as checkin date <br> 4. Enter valid checkout date <br> 5. Click Search | Hotels in Goa are displayed |
-| QA-008 | Edge Case | Search for hotels in Goa with checkout date same as today's date | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter valid checkin date <br> 4. Enter today's date as checkout date <br> 5. Click Search | Hotels in Goa are displayed |
-| QA-009 | Edge Case | Search for hotels in Goa with checkin and checkout dates same | 1. Go to agoda.com <br> 2. Enter Goa in search box <br> 3. Enter today's date as checkin and checkout dates <br> 4. Click Search | Error message is displayed |
+| SRCH-001 | Positive | Search for hotels in Bangalore | Enter valid dates, select Bangalore as destination, and submit the form | List of hotels in Bangalore should be displayed |
+| SRCH-002 | Positive | Search for hotels in Delhi | Enter valid dates, select Delhi as destination, and submit the form | List of hotels in Delhi should be displayed |
+| SRCH-003 | Positive | Search for hotels in Mumbai | Enter valid dates, select Mumbai as destination, and submit the form | List of hotels in Mumbai should be displayed |
+| SRCH-004 | Negative | Search for hotels in invalid city | Enter valid dates, enter invalid city name as destination, and submit the form | Error message should be displayed |
+| SRCH-005 | Negative | Search for hotels without selecting destination | Enter valid dates, do not select destination, and submit the form | Error message should be displayed |
+| SRCH-006 | Negative | Search for hotels with invalid dates | Enter invalid dates, select valid destination, and submit the form | Error message should be displayed |
+| SRCH-007 | Edge Case | Search for hotels in city with no hotels | Enter valid dates, select city with no hotels as destination, and submit the form | Message indicating no hotels available should be displayed |
+| SRCH-008 | Edge Case | Search for hotels with unsupported combination of filters | Select valid destination, select unsupported combination of filters, and submit the form | Error message should be displayed |
+| SRCH-009 | Edge Case | Search for hotels with boundary values of dates | Enter boundary values of dates (e.g. 1st Jan 1970), select valid destination, and submit the form | List of hotels should be displayed |
