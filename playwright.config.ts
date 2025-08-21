@@ -5,7 +5,7 @@ dotenv.config();
 export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL,
-    headless: true,
+    headless: false,
     screenshot: "only-on-failure",
     video: "retain-on-failure"
   },
