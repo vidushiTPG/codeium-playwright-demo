@@ -1,0 +1,738 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Skip to main content":
+    - /url: "#HomeReactContainer"
+  - navigation:
+    - link "Agoda logo Home link":
+      - /url: /en-in/
+      - img "Primary Logo"
+      - img "Site secondary logo"
+    - text: Bundle and save!
+    - link "Flight + Hotel":
+      - /url: /en-in/packages
+    - link "Hotels & Homes":
+      - /url: /en-in/
+    - text: New! Transport
+    - button "Menu"
+  - button "English / India":
+    - img "English / India"
+  - button "Rs."
+  - button "Sign in"
+  - button "Create account"
+  - button "Shopping cart"
+  - button "Menu":
+    - img
+- main:
+  - tablist:
+    - tab "Hotels" [selected]:
+      - heading "Hotels" [level=6]
+    - tab "Homes & Apts":
+      - heading "Homes & Apts" [level=6]
+    - tab "Bundle & Save Flight + Hotel":
+      - paragraph: Bundle & Save
+      - heading "Flight + Hotel" [level=6]
+    - tab "Flights":
+      - heading "Flights" [level=6]
+    - tab "New! Activities":
+      - paragraph: New!
+      - heading "Activities" [level=6]
+    - tab "Airport transfer":
+      - heading "Airport transfer" [level=6]
+  - tabpanel "Hotels":
+    - text: 
+    - combobox "Enter a destination or property": Meerut, India
+    - text: Begin typing property name or keyword to search, use arrow keys or tab key to navigate, press Enter to select
+    - button "Check-in 30 Aug 2025 Saturday":  30 Aug 2025 Saturday
+    - button "Check-out 31 Aug 2025 Sunday":  31 Aug 2025 Sunday
+    - button "Guests and rooms 2 adults 1 room":  2 adults 1 room 
+    - button "SEARCH"
+    - button "Add a flight"
+    - button "SEARCH"
+  - heading "Top destinations in India" [level=2]
+  - region "Top destinations in India carousel":
+    - region "Slide 1 of 11":
+      - group:
+        - link "New Delhi and NCR New Delhi and NCR 12,786 accommodations":
+          - /url: /en-in/city/new-delhi-and-ncr-in.html
+          - img "New Delhi and NCR"
+          - heading "New Delhi and NCR" [level=3]
+          - text: 12,786 accommodations
+    - region "Slide 2 of 11":
+      - group:
+        - link "Bangalore Bangalore 5,372 accommodations":
+          - /url: /en-in/city/bangalore-in.html
+          - img "Bangalore"
+          - heading "Bangalore" [level=3]
+          - text: 5,372 accommodations
+    - region "Slide 3 of 11":
+      - group:
+        - link "Mumbai Mumbai 4,177 accommodations":
+          - /url: /en-in/city/mumbai-in.html
+          - img "Mumbai"
+          - heading "Mumbai" [level=3]
+          - text: 4,177 accommodations
+    - region "Slide 4 of 11":
+      - group:
+        - link "Hyderabad Hyderabad 2,735 accommodations":
+          - /url: /en-in/city/hyderabad-in.html
+          - img "Hyderabad"
+          - heading "Hyderabad" [level=3]
+          - text: 2,735 accommodations
+    - button "Next destination"
+  - heading "Accommodation Promotions" [level=2]
+  - link "View all":
+    - /url: /deals
+  - region "Accommodation Promotions carousel":
+    - region "Slide 1 of 21":
+      - link:
+        - /url: http://www.agoda.com/deals?cid=1916891
+        - group:
+          - img "Accommodation Promotion 0"
+    - region "Slide 2 of 21":
+      - link:
+        - /url: http://www.agoda.com/FlagshipAccorThailand?cid=1924914
+        - group:
+          - img "Accommodation Promotion 1"
+    - region "Slide 3 of 21":
+      - link:
+        - /url: http://www.agoda.com/FlagshipCityHouse?cid=1901283
+        - group:
+          - img "Accommodation Promotion 2"
+    - button "Next Accommodation Promotion"
+  - heading "Flights & Activities Promotions" [level=2]
+  - region "Flights & Activities Promotions carousel":
+    - region "Slide 1 of 3":
+      - link:
+        - /url: http://www.agoda.com/flights?cid=1944288
+        - group:
+          - img "Flights/Activities Promotion 0"
+    - region "Slide 2 of 3":
+      - link:
+        - /url: http://www.agoda.com/promotion/redeem?cinfo=20250501_541681&site_id=1915785
+        - group:
+          - img "Flights/Activities Promotion 1"
+    - region "Slide 3 of 3":
+      - link:
+        - /url: http://www.agoda.com/flights?cid=1904159
+        - group:
+          - img "Flights/Activities Promotion 2"
+    - button "Next Flights/Activities Promotion"
+  - heading "Featured homes recommended for you" [level=2]
+  - heading "Popular destinations outside India" [level=2]
+  - region "Popular destinations outside India carousel":
+    - region "Slide 1 of 20":
+      - group:
+        - link "Dubai Dubai 19,464 accommodations":
+          - /url: /en-in/city/dubai-ae.html
+          - img "Dubai"
+          - heading "Dubai" [level=3]
+          - text: 19,464 accommodations
+    - region "Slide 2 of 20":
+      - group:
+        - link "Bangkok Bangkok 12,048 accommodations":
+          - /url: /en-in/city/bangkok-th.html
+          - img "Bangkok"
+          - heading "Bangkok" [level=3]
+          - text: 12,048 accommodations
+    - region "Slide 3 of 20":
+      - group:
+        - link "Abu Dhabi Abu Dhabi 721 accommodations":
+          - /url: /en-in/city/abu-dhabi-ae.html
+          - img "Abu Dhabi"
+          - heading "Abu Dhabi" [level=3]
+          - text: 721 accommodations
+    - region "Slide 4 of 20":
+      - group:
+        - link "Bali Bali 32,908 accommodations":
+          - /url: /en-in/city/bali-id.html
+          - img "Bali"
+          - heading "Bali" [level=3]
+          - text: 32,908 accommodations
+    - button "Next destination"
+- contentinfo:
+  - heading "Help" [level=2]
+  - list:
+    - listitem:
+      - link "Help center":
+        - /url: /en-in/info/contact.html
+        - paragraph: Help center
+    - listitem:
+      - link "FAQs":
+        - /url: /en-in/info/contact.html
+        - paragraph: FAQs
+    - listitem:
+      - link "Privacy policy":
+        - /url: /en-in/info/privacy.html
+        - paragraph: Privacy policy
+    - listitem:
+      - link "Cookie policy":
+        - /url: /en-in/info/privacy.html#cookies
+        - paragraph: Cookie policy
+    - listitem:
+      - link "Terms of use":
+        - /url: /en-in/info/termsofuse.html
+        - paragraph: Terms of use
+    - listitem:
+      - link "Digital Services Act (EU)":
+        - /url: /en-in/info/eu-digital-services-act.html
+        - paragraph: Digital Services Act (EU)
+    - listitem:
+      - link "Content guidelines & reporting":
+        - /url: /en-in/info/eu-digital-services-act.html#CM
+        - paragraph: Content guidelines & reporting
+    - listitem:
+      - link "Modern Slavery Statement":
+        - /url: //www.bookingholdings.com/modern-slavery-statement/
+        - paragraph: Modern Slavery Statement
+  - heading "Company" [level=2]
+  - list:
+    - listitem:
+      - link "About us":
+        - /url: /en-in/about-agoda
+        - paragraph: About us
+    - listitem:
+      - link "Careers":
+        - /url: //careersatagoda.com
+        - paragraph: Careers
+    - listitem:
+      - link "Press":
+        - /url: //mediaroom.agoda.com
+        - paragraph: Press
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+        - paragraph: Blog
+    - listitem:
+      - link "PointsMAX":
+        - /url: //www.agoda.com/en-in/pointsmax.html
+        - paragraph: PointsMAX
+  - heading "Destinations" [level=2]
+  - list:
+    - listitem:
+      - link "Countries/Territories":
+        - /url: //www.agoda.com/en-in/world.html
+        - paragraph: Countries/Territories
+    - listitem:
+      - link "All Flight Routes":
+        - /url: //www.agoda.com/en-in/flights/world.html
+        - paragraph: All Flight Routes
+  - heading "Partner with us" [level=2]
+  - list:
+    - listitem:
+      - link "YCS partner portal":
+        - /url: ////ycs.agoda.com/en-in
+        - paragraph: YCS partner portal
+    - listitem:
+      - link "Partner Hub":
+        - /url: //partnerhub.agoda.com/
+        - paragraph: Partner Hub
+    - listitem:
+      - link "Advertise on Agoda":
+        - /url: //partnerhub.agoda.com/advertising-solutions/
+        - paragraph: Advertise on Agoda
+    - listitem:
+      - link "Affiliates":
+        - /url: ////partners.agoda.com/en-in/index.html
+        - paragraph: Affiliates
+    - listitem:
+      - link "Agoda API Documentation":
+        - /url: //developer.agoda.com/
+        - paragraph: Agoda API Documentation
+  - heading "Get the app" [level=2]
+  - list:
+    - listitem:
+      - link "iOS app":
+        - /url: //app.appsflyer.com/id440676901?pid=direct&c=hotel_page_footer&af_siteid=1716632&site_id=1716632&af_sub1=desktop
+        - paragraph: iOS app
+    - listitem:
+      - link "Android app":
+        - /url: //app.appsflyer.com/com.agoda.mobile.consumer?pid=direct&c=hotel_page_footer&af_siteid=1716632&site_id=1716632&af_sub1=desktop
+        - paragraph: Android app
+  - table:
+    - rowgroup:
+      - row:
+        - cell "Destination Cities Asia Bali Hotels Bandung Hotels Bangkok Hotels Boracay Island Hotels Busan Hotels Cebu Hotels Chiang Mai Hotels Da Nang Hotels Fukuoka Hotels Hanoi Hotels Hat Yai Hotels Ho Chi Minh City Hotels Hoi An Hotels Hong Kong Hotels Hua Hin Hotels Hualien Hotels Ipoh Hotels Jakarta Hotels Jeju Island Hotels Johor Bahru Hotels Kaohsiung Hotels Kota Kinabalu Hotels Krabi Hotels Kuala Lumpur Hotels Kuantan Hotels Kyoto Hotels":
+          - heading "Destination Cities" [level=2]
+          - heading "Asia" [level=3]
+          - list:
+            - listitem:
+              - link "Bali Hotels":
+                - /url: /city/bali-id.html
+            - listitem:
+              - link "Bandung Hotels":
+                - /url: /city/bandung-id.html
+            - listitem:
+              - link "Bangkok Hotels":
+                - /url: /city/bangkok-th.html
+            - listitem:
+              - link "Boracay Island Hotels":
+                - /url: /city/boracay-island-ph.html
+            - listitem:
+              - link "Busan Hotels":
+                - /url: /city/busan-kr.html
+            - listitem:
+              - link "Cebu Hotels":
+                - /url: /city/cebu-ph.html
+            - listitem:
+              - link "Chiang Mai Hotels":
+                - /url: /city/chiang-mai-th.html
+            - listitem:
+              - link "Da Nang Hotels":
+                - /url: /city/da-nang-vn.html
+            - listitem:
+              - link "Fukuoka Hotels":
+                - /url: /city/fukuoka-jp.html
+            - listitem:
+              - link "Hanoi Hotels":
+                - /url: /city/hanoi-vn.html
+            - listitem:
+              - link "Hat Yai Hotels":
+                - /url: /city/hat-yai-th.html
+            - listitem:
+              - link "Ho Chi Minh City Hotels":
+                - /url: /city/ho-chi-minh-city-vn.html
+            - listitem:
+              - link "Hoi An Hotels":
+                - /url: /city/hoi-an-vn.html
+            - listitem:
+              - link "Hong Kong Hotels":
+                - /url: /city/hong-kong-hk.html
+            - listitem:
+              - link "Hua Hin Hotels":
+                - /url: /city/hua-hin-cha-am-th.html
+            - listitem:
+              - link "Hualien Hotels":
+                - /url: /city/hualien-tw.html
+            - listitem:
+              - link "Ipoh Hotels":
+                - /url: /city/ipoh-my.html
+            - listitem:
+              - link "Jakarta Hotels":
+                - /url: /city/jakarta-id.html
+            - listitem:
+              - link "Jeju Island Hotels":
+                - /url: /city/jeju-island-kr.html
+            - listitem:
+              - link "Johor Bahru Hotels":
+                - /url: /city/johor-bahru-my.html
+            - listitem:
+              - link "Kaohsiung Hotels":
+                - /url: /city/kaohsiung-tw.html
+            - listitem:
+              - link "Kota Kinabalu Hotels":
+                - /url: /city/kota-kinabalu-my.html
+            - listitem:
+              - link "Krabi Hotels":
+                - /url: /city/krabi-th.html
+            - listitem:
+              - link "Kuala Lumpur Hotels":
+                - /url: /city/kuala-lumpur-my.html
+            - listitem:
+              - link "Kuantan Hotels":
+                - /url: /city/kuantan-my.html
+            - listitem:
+              - link "Kyoto Hotels":
+                - /url: /city/kyoto-jp.html
+        - cell "Macau Hotels Malacca Hotels Manila Hotels Nagoya Hotels Nha Trang Hotels Okinawa Hotels Osaka Hotels Pattaya Hotels Penang Hotels Phuket Hotels Sapporo Hotels Seoul Hotels Shanghai Hotels Singapore Hotels Surabaya Hotels Taichung Hotels Tainan Hotels Taipei Hotels Tokyo Hotels Yilan Hotels Yogyakarta Hotels Europe London Hotels Paris Hotels Middle East Dubai Hotels":
+          - list:
+            - listitem:
+              - link "Macau Hotels":
+                - /url: /city/macau-mo.html
+            - listitem:
+              - link "Malacca Hotels":
+                - /url: /city/malacca-my.html
+            - listitem:
+              - link "Manila Hotels":
+                - /url: /city/manila-ph.html
+            - listitem:
+              - link "Nagoya Hotels":
+                - /url: /city/nagoya-jp.html
+            - listitem:
+              - link "Nha Trang Hotels":
+                - /url: /city/nha-trang-vn.html
+            - listitem:
+              - link "Okinawa Hotels":
+                - /url: /city/okinawa-main-island-jp.html
+            - listitem:
+              - link "Osaka Hotels":
+                - /url: /city/osaka-jp.html
+            - listitem:
+              - link "Pattaya Hotels":
+                - /url: /city/pattaya-th.html
+            - listitem:
+              - link "Penang Hotels":
+                - /url: /city/penang-my.html
+            - listitem:
+              - link "Phuket Hotels":
+                - /url: /city/phuket-th.html
+            - listitem:
+              - link "Sapporo Hotels":
+                - /url: /city/sapporo-jp.html
+            - listitem:
+              - link "Seoul Hotels":
+                - /url: /city/seoul-kr.html
+            - listitem:
+              - link "Shanghai Hotels":
+                - /url: /city/shanghai-cn.html
+            - listitem:
+              - link "Singapore Hotels":
+                - /url: /city/singapore-sg.html
+            - listitem:
+              - link "Surabaya Hotels":
+                - /url: /city/surabaya-id.html
+            - listitem:
+              - link "Taichung Hotels":
+                - /url: /city/taichung-tw.html
+            - listitem:
+              - link "Tainan Hotels":
+                - /url: /city/tainan-tw.html
+            - listitem:
+              - link "Taipei Hotels":
+                - /url: /city/taipei-tw.html
+            - listitem:
+              - link "Tokyo Hotels":
+                - /url: /city/tokyo-jp.html
+            - listitem:
+              - link "Yilan Hotels":
+                - /url: /city/yilan-tw.html
+            - listitem:
+              - link "Yogyakarta Hotels":
+                - /url: /city/yogyakarta-id.html
+          - heading "Europe" [level=3]
+          - list:
+            - listitem:
+              - link "London Hotels":
+                - /url: /city/london-gb.html
+            - listitem:
+              - link "Paris Hotels":
+                - /url: /city/paris-fr.html
+          - heading "Middle East" [level=3]
+          - list:
+            - listitem:
+              - link "Dubai Hotels":
+                - /url: /city/dubai-ae.html
+        - cell "Countries & Territories Africa Morocco Hotels South Africa Hotels Americas Argentina Hotels Brazil Hotels Canada Hotels Mexico Hotels United States Hotels Venezuela Hotels Asia Cambodia Hotels China Hotels India Hotels Indonesia Hotels Japan Hotels Laos Hotels Malaysia Hotels Myanmar Hotels Nepal Hotels Philippines Hotels South Korea Hotels Sri Lanka Hotels Taiwan Hotels Thailand Hotels Vietnam Hotels":
+          - heading "Countries & Territories" [level=2]
+          - heading "Africa" [level=3]
+          - list:
+            - listitem:
+              - link "Morocco Hotels":
+                - /url: /country/morocco.html
+            - listitem:
+              - link "South Africa Hotels":
+                - /url: /country/south-africa.html
+          - heading "Americas" [level=3]
+          - list:
+            - listitem:
+              - link "Argentina Hotels":
+                - /url: /country/argentina.html
+            - listitem:
+              - link "Brazil Hotels":
+                - /url: /country/brazil.html
+            - listitem:
+              - link "Canada Hotels":
+                - /url: /country/canada.html
+            - listitem:
+              - link "Mexico Hotels":
+                - /url: /country/mexico.html
+            - listitem:
+              - link "United States Hotels":
+                - /url: /country/united-states.html
+            - listitem:
+              - link "Venezuela Hotels":
+                - /url: /country/venezuela.html
+          - heading "Asia" [level=3]
+          - list:
+            - listitem:
+              - link "Cambodia Hotels":
+                - /url: /country/cambodia.html
+            - listitem:
+              - link "China Hotels":
+                - /url: /country/china.html
+            - listitem:
+              - link "India Hotels":
+                - /url: /country/india.html
+            - listitem:
+              - link "Indonesia Hotels":
+                - /url: /country/indonesia.html
+            - listitem:
+              - link "Japan Hotels":
+                - /url: /country/japan.html
+            - listitem:
+              - link "Laos Hotels":
+                - /url: /country/laos.html
+            - listitem:
+              - link "Malaysia Hotels":
+                - /url: /country/malaysia.html
+            - listitem:
+              - link "Myanmar Hotels":
+                - /url: /country/myanmar.html
+            - listitem:
+              - link "Nepal Hotels":
+                - /url: /country/nepal.html
+            - listitem:
+              - link "Philippines Hotels":
+                - /url: /country/philippines.html
+            - listitem:
+              - link "South Korea Hotels":
+                - /url: /country/south-korea.html
+            - listitem:
+              - link "Sri Lanka Hotels":
+                - /url: /country/sri-lanka.html
+            - listitem:
+              - link "Taiwan Hotels":
+                - /url: /country/taiwan.html
+            - listitem:
+              - link "Thailand Hotels":
+                - /url: /country/thailand.html
+            - listitem:
+              - link "Vietnam Hotels":
+                - /url: /country/vietnam.html
+        - cell "Europe Austria Hotels Czech Republic Hotels Denmark Hotels Finland Hotels France Hotels Germany Hotels Greece Hotels Hungary Hotels Ireland Hotels Italy Hotels Netherlands Hotels Russia Hotels Spain Hotels Sweden Hotels Switzerland Hotels United Kingdom Hotels Middle East Bahrain Hotels Egypt Hotels Israel Hotels United Arab Emirates Hotels Oceania Australia Hotels New Zealand Hotels":
+          - heading "Europe" [level=3]
+          - list:
+            - listitem:
+              - link "Austria Hotels":
+                - /url: /country/austria.html
+            - listitem:
+              - link "Czech Republic Hotels":
+                - /url: /country/czech-republic.html
+            - listitem:
+              - link "Denmark Hotels":
+                - /url: /country/denmark.html
+            - listitem:
+              - link "Finland Hotels":
+                - /url: /country/finland.html
+            - listitem:
+              - link "France Hotels":
+                - /url: /country/france.html
+            - listitem:
+              - link "Germany Hotels":
+                - /url: /country/germany.html
+            - listitem:
+              - link "Greece Hotels":
+                - /url: /country/greece.html
+            - listitem:
+              - link "Hungary Hotels":
+                - /url: /country/hungary.html
+            - listitem:
+              - link "Ireland Hotels":
+                - /url: /country/ireland.html
+            - listitem:
+              - link "Italy Hotels":
+                - /url: /country/italy.html
+            - listitem:
+              - link "Netherlands Hotels":
+                - /url: /country/netherlands.html
+            - listitem:
+              - link "Russia Hotels":
+                - /url: /country/russia.html
+            - listitem:
+              - link "Spain Hotels":
+                - /url: /country/spain.html
+            - listitem:
+              - link "Sweden Hotels":
+                - /url: /country/sweden.html
+            - listitem:
+              - link "Switzerland Hotels":
+                - /url: /country/switzerland.html
+            - listitem:
+              - link "United Kingdom Hotels":
+                - /url: /country/united-kingdom.html
+          - heading "Middle East" [level=3]
+          - list:
+            - listitem:
+              - link "Bahrain Hotels":
+                - /url: /country/bahrain.html
+            - listitem:
+              - link "Egypt Hotels":
+                - /url: /country/egypt.html
+            - listitem:
+              - link "Israel Hotels":
+                - /url: /country/israel.html
+            - listitem:
+              - link "United Arab Emirates Hotels":
+                - /url: /country/united-arab-emirates.html
+          - heading "Oceania" [level=3]
+          - list:
+            - listitem:
+              - link "Australia Hotels":
+                - /url: /country/australia.html
+            - listitem:
+              - link "New Zealand Hotels":
+                - /url: /country/new-zealand.html
+        - cell "Destination Guides Destination Guides Home Asia Bali Guide Visit Southeast Asia Hong Kong Guide Jakarta Guide Jeju Island Guide Kuala Lumpur Guide Kyoto Guide Kyushu Guide Malacca Guide Philippines Guide Nara Guide Osaka Guide Phuket Guide Sapporo Guide Seoul Guide Singapore Guide Taichung Guide Taipei Guide Tokyo Guide Goa Guide Europe Paris Guide Middle East Dubai Guide Jeddah Guide Saudi Arabia Guide Oceania Brisbane Guide Melbourne Guide Sydney Guide":
+          - heading "Destination Guides" [level=2]
+          - list:
+            - listitem:
+              - link "Destination Guides Home":
+                - /url: /travel-guides
+          - heading "Asia" [level=3]
+          - list:
+            - listitem:
+              - link "Bali Guide":
+                - /url: /travel-guides/indonesia/bali
+            - listitem:
+              - link "Visit Southeast Asia":
+                - /url: /special-editions/visit-southeast-asia
+            - listitem:
+              - link "Hong Kong Guide":
+                - /url: /travel-guides/hong-kong
+            - listitem:
+              - link "Jakarta Guide":
+                - /url: /travel-guides/indonesia/jakarta
+            - listitem:
+              - link "Jeju Island Guide":
+                - /url: /travel-guides/south-korea/jeju-island
+            - listitem:
+              - link "Kuala Lumpur Guide":
+                - /url: /travel-guides/malaysia/kuala-lumpur
+            - listitem:
+              - link "Kyoto Guide":
+                - /url: /travel-guides/japan/kyoto
+            - listitem:
+              - link "Kyushu Guide":
+                - /url: /travel-guides/japan/kyushu
+            - listitem:
+              - link "Malacca Guide":
+                - /url: /travel-guides/malaysia/malacca
+            - listitem:
+              - link "Philippines Guide":
+                - /url: /special-editions/philippines/love-the-philippines-top-places-to-visit-and-stay-in-the-tropical-paradise
+            - listitem:
+              - link "Nara Guide":
+                - /url: /travel-guides/japan/nara
+            - listitem:
+              - link "Osaka Guide":
+                - /url: /travel-guides/japan/osaka
+            - listitem:
+              - link "Phuket Guide":
+                - /url: /travel-guides/thailand/phuket
+            - listitem:
+              - link "Sapporo Guide":
+                - /url: /travel-guides/japan/sapporo
+            - listitem:
+              - link "Seoul Guide":
+                - /url: /travel-guides/south-korea/seoul
+            - listitem:
+              - link "Singapore Guide":
+                - /url: /travel-guides/singapore
+            - listitem:
+              - link "Taichung Guide":
+                - /url: /travel-guides/taiwan/taichung
+            - listitem:
+              - link "Taipei Guide":
+                - /url: /travel-guides/taiwan/taipei
+            - listitem:
+              - link "Tokyo Guide":
+                - /url: /travel-guides/japan/tokyo
+            - listitem:
+              - link "Goa Guide":
+                - /url: /special-editions/goa
+          - heading "Europe" [level=3]
+          - list:
+            - listitem:
+              - link "Paris Guide":
+                - /url: /travel-guides/france/paris
+          - heading "Middle East" [level=3]
+          - list:
+            - listitem:
+              - link "Dubai Guide":
+                - /url: /travel-guides/united-arab-emirates-uae/dubai
+            - listitem:
+              - link "Jeddah Guide":
+                - /url: /travel-guides/saudi-arabia/jeddah
+            - listitem:
+              - link "Saudi Arabia Guide":
+                - /url: /travel-guides/saudi-arabia
+          - heading "Oceania" [level=3]
+          - list:
+            - listitem:
+              - link "Brisbane Guide":
+                - /url: /travel-guides/australia/brisbane
+            - listitem:
+              - link "Melbourne Guide":
+                - /url: /travel-guides/australia/melbourne
+            - listitem:
+              - link "Sydney Guide":
+                - /url: /travel-guides/australia/sydney
+        - cell "Agoda Homes Asia Apartments Bangkok Apartments Kuala Lumpur Apartments Manila Apartments Osaka Apartments Pattaya Apartments Tokyo Apartments Asia Bungalows Bali Bungalows Koh Kood Bungalows Koh Lanta Bungalows Koh Phangan Bungalows Koh Samet Bungalows Phu Quoc Island Bungalows Asia Villas Bali Villas Phuket Villas Pattaya Villas Hua Hin / Cha-am Villas Seoul Villas Port Dickson Villas Asia Vacation Rentals Tokyo Vacation Rentals Bangkok Vacation Rentals":
+          - heading "Agoda Homes" [level=2]
+          - heading "Asia Apartments" [level=3]
+          - list:
+            - listitem:
+              - link "Bangkok Apartments":
+                - /url: /theme/apartments/city/bangkok-th.html
+            - listitem:
+              - link "Kuala Lumpur Apartments":
+                - /url: /theme/apartments/city/kuala-lumpur-my.html
+            - listitem:
+              - link "Manila Apartments":
+                - /url: /theme/apartments/city/manila-ph.html
+            - listitem:
+              - link "Osaka Apartments":
+                - /url: /theme/apartments/city/osaka-jp.html
+            - listitem:
+              - link "Pattaya Apartments":
+                - /url: /theme/apartments/city/pattaya-th.html
+            - listitem:
+              - link "Tokyo Apartments":
+                - /url: /theme/apartments/city/tokyo-jp.html
+          - heading "Asia Bungalows" [level=3]
+          - list:
+            - listitem:
+              - link "Bali Bungalows":
+                - /url: /bungalows/city/bali-id.html
+            - listitem:
+              - link "Koh Kood Bungalows":
+                - /url: /bungalows/city/koh-kood-th.html
+            - listitem:
+              - link "Koh Lanta Bungalows":
+                - /url: /bungalows/city/koh-lanta-th.html
+            - listitem:
+              - link "Koh Phangan Bungalows":
+                - /url: /bungalows/city/koh-phangan-th.html
+            - listitem:
+              - link "Koh Samet Bungalows":
+                - /url: /bungalows/city/koh-samet-th.html
+            - listitem:
+              - link "Phu Quoc Island Bungalows":
+                - /url: /bungalows/city/phu-quoc-island-vn.html
+          - heading "Asia Villas" [level=3]
+          - list:
+            - listitem:
+              - link "Bali Villas":
+                - /url: /theme/villas/city/bali-id.html
+            - listitem:
+              - link "Phuket Villas":
+                - /url: /theme/villas/city/phuket-th.html
+            - listitem:
+              - link "Pattaya Villas":
+                - /url: /theme/villas/city/pattaya-th.html
+            - listitem:
+              - link "Hua Hin / Cha-am Villas":
+                - /url: /theme/villas/city/hua-hin-cha-am-th.html
+            - listitem:
+              - link "Seoul Villas":
+                - /url: /theme/villas/city/seoul-kr.html
+            - listitem:
+              - link "Port Dickson Villas":
+                - /url: /theme/villas/city/port-dickson-my.html
+          - heading "Asia Vacation Rentals" [level=3]
+          - list:
+            - listitem:
+              - link "Tokyo Vacation Rentals":
+                - /url: /vacation-rentals/city/tokyo-jp.html
+            - listitem:
+              - link "Bangkok Vacation Rentals":
+                - /url: /vacation-rentals/city/bangkok-th.html
+  - paragraph: All material herein © 2005–2025 Agoda Company Pte. Ltd. All Rights Reserved.
+  - paragraph: Agoda is part of Booking Holdings Inc., the world leader in online travel & related services.
+  - img "Agoda logo"
+  - img "Priceline logo"
+  - img "Kayak logo"
+  - img "Booking.com logo"
+  - img "Open Table logo"
+```

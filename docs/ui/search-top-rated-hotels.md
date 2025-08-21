@@ -1,152 +1,130 @@
-# Hotel Search Test Cases - agoda.com
+# Test Documentation: Search Hotels in Random City in India
+
+## Test Objective
+To verify the functionality of searching for top-rated hotels in various Indian cities on agoda.com, ensuring accurate and relevant search results.
 
 ## Test Environment
-- **Base URL**: https://www.agoda.com
-- **Supported Browsers**: Chrome, Firefox, Safari, Edge (latest versions)
-- **Viewports**: Desktop (1920x1080), Tablet (1024x768), Mobile (375x812)
-- **Test Data**: Indian cities including Mumbai, Delhi, Bengaluru, Chennai, Hyderabad, Pune, Ahmedabad, Kolkata, Jaipur, Kochi
+- **Browser**: Chrome (Latest), Firefox (Latest), Safari (Latest)
+- **Device**: Desktop, Mobile, Tablet
+- **Environment**: Staging, Production
+- **Test Data**: List of Indian cities (Mumbai, Delhi, Bangalore, Goa, Jaipur, etc.)
+
+## Test Setup
+1. Clear browser cache and cookies
+2. Ensure stable internet connection
+3. Navigate to agoda.com
+4. Accept cookies and dismiss any pop-ups
 
 ## Test Cases
 
 ### Positive Test Cases
 
-#### TC-P001: Search hotels with valid Indian city
-- **Description**: Verify hotel search with a valid Indian city
-- **Preconditions**: User is on agoda.com homepage
-- **Test Steps**:
-  1. Enter a valid Indian city (e.g., "Mumbai, India") in the destination field
-  2. Select check-in and check-out dates
-  3. Click 'Search' button
-- **Expected Results**:
-  - Search results page loads successfully
-  - Search results show hotels in the specified city
-  - City name is displayed in the search results header
+#### TC-P001: Search with Valid Indian City
+- **Description**: Verify search with a valid Indian city
+- **Steps**:
+  1. Enter a valid Indian city (e.g., "Mumbai") in the search field
+  2. Select the city from the dropdown
+  3. Select check-in and check-out dates (current date + 7 days)
+  4. Click 'Search' button
+- **Expected Result**:
+  - Page should load with hotel listings for the selected city
+  - Map should show the correct location
+  - Results should be relevant to the searched city
+  - Price and availability should be displayed for each hotel
 
-#### TC-P002: Search with city selection from popular cities
-- **Description**: Verify city selection from popular cities dropdown
-- **Test Steps**:
-  1. Start typing a city name (e.g., "Del")
-  2. Select the city from the popular cities dropdown
-  3. Verify dates and click 'Search'
-- **Expected Results**:
-  - City is auto-completed in the search field
-  - Search results show hotels in the selected city
+#### TC-P002: Search with Different Date Ranges
+- **Description**: Verify search with various date combinations
+- **Steps**:
+  1. Enter a valid Indian city
+  2. Select different date ranges (weekday, weekend, holiday period)
+  3. Click 'Search' button
+- **Expected Result**:
+  - Results should adjust based on selected dates
+  - Price variations should be reflected for different dates
+  - No error messages should appear
 
 ### Negative Test Cases
 
-#### TC-N001: Search with non-existent city
-- **Description**: Verify behavior when searching for a non-existent city
-- **Test Steps**:
-  1. Enter "NonexistentCity, India" in the destination field
-  2. Click 'Search'
-- **Expected Results**:
-  - Appropriate error message is displayed
-  - No search results shown
+#### TC-N001: Search with Non-Existent City
+- **Description**: Verify search with invalid city name
+- **Steps**:
+  1. Enter a non-existent city (e.g., "Xyzabc")
+  2. Click 'Search' button
+- **Expected Result**:
+  - Appropriate error message should be displayed
+  - No results should be shown
+  - User should be prompted to try a different location
 
-#### TC-N002: Search with special characters in city name
-- **Test Steps**:
-  1. Enter "Mum@bai, India" in the destination field
-  2. Click 'Search'
-- **Expected Results**:
-  - Input validation error is shown
-  - Search button is disabled
+#### TC-N002: Search with Special Characters
+- **Description**: Verify search with special characters
+- **Steps**:
+  1. Enter special characters (e.g., "@#$") in search field
+  2. Click 'Search' button
+- **Expected Result**:
+  - Input should be validated
+  - Appropriate error message should be displayed
+  - No results should be shown
 
 ### Edge Cases
 
-#### TC-E001: Search with minimum date range
-- **Description**: Verify search with same check-in and check-out date
-- **Test Steps**:
-  1. Select today's date for both check-in and check-out
-  2. Click 'Search'
-- **Expected Results**:
-  - Appropriate error message about minimum stay requirement
-  - Search not executed
+#### TC-E001: Search with Very Long City Name
+- **Description**: Verify search with extremely long city name
+- **Steps**:
+  1. Enter a very long city name (100+ characters)
+  2. Click 'Search' button
+- **Expected Result**:
+  - Input should be truncated or validated
+  - Appropriate error message should be displayed if invalid
+  - No system crash should occur
 
-#### TC-E002: Search with maximum date range (1 year)
-- **Test Steps**:
-  1. Set check-in date to today
-  2. Set check-out date to exactly 1 year from today
-  3. Click 'Search'
-- **Expected Results**:
-  - Search executes successfully
-  - Results show availability for the selected date range
-
-## Test Data
-
-### Valid Indian Cities
-- Mumbai
-- Delhi
-- Bengaluru
-- Chennai
-- Hyderabad
-- Pune
-- Ahmedabad
-- Kolkata
-- Jaipur
-- Kochi
-
-### Invalid Test Data
-- NonexistentCity
-- Special characters (e.g., @#$
-- Numbers (e.g., 12345)
-- Very long city names
-- SQL injection attempts
-
-## Cross-Browser Testing
-- Verify all test cases on:
-  - Chrome (latest)
-  - Firefox (latest)
-  - Safari (latest)
-  - Edge (latest)
-
-## Mobile Responsiveness
-- Test search functionality on:
-  - iOS Safari
-  - Android Chrome
-  - Different screen sizes (320px to 1440px)
+#### TC-E002: Search with Past Dates
+- **Description**: Verify search with past check-in dates
+- **Steps**:
+  1. Enter a valid city
+  2. Select past dates for check-in/check-out
+  3. Click 'Search' button
+- **Expected Result**:
+  - System should not allow past dates
+  - Appropriate error message should be displayed
+  - User should be prompted to select future dates
 
 ## Performance Testing
-- Page load time < 3 seconds
-- Search results load time < 5 seconds
-- API response time < 2 seconds
+- **PT-001**: Search response time should be under 3 seconds for first-time search
+- **PT-002**: Subsequent searches should be faster due to caching
+- **PT-003**: System should handle 100+ concurrent users without degradation
 
 ## Security Testing
-- Verify HTTPS is enforced
-- Test for XSS vulnerabilities
-- Verify input sanitization
+- **ST-001**: Verify HTTPS is enforced on all pages
+- **ST-002**: Test for SQL injection in search field
+- **ST-003**: Verify no sensitive data is exposed in API responses
+
+## Cross-Browser Testing
+- **CB-001**: Verify consistent functionality across Chrome, Firefox, Safari
+- **CB-002**: Verify responsive design on mobile devices
+- **CB-003**: Test on different screen resolutions
 
 ## Accessibility Testing
-- Screen reader compatibility
-- Keyboard navigation
-- Color contrast ratio
-- ARIA labels
+- **A11Y-001**: Verify keyboard navigation
+- **A11Y-002**: Check color contrast ratios
+- **A11Y-003**: Test with screen readers
 
-## Test Execution
-1. Execute all positive test cases
-2. Execute negative test cases
-3. Execute edge cases
-4. Perform cross-browser testing
-5. Verify mobile responsiveness
-6. Execute performance tests
-7. Conduct security and accessibility testing
+## Test Data
+### Valid Indian Cities
+- Mumbai, Maharashtra
+- Delhi
+- Bangalore, Karnataka
+- Goa
+- Jaipur, Rajasthan
+- Chennai, Tamil Nadu
+- Kolkata, West Bengal
+- Hyderabad, Telangana
+- Pune, Maharashtra
+- Udaipur, Rajasthan
+
+### Invalid Test Data
+- Xyzabc
+- 12345
+- !@#$
+- <script>alert('xss')</script>
 
 ## Defect Reporting Template
-```
-Title: [Brief description of the issue]
-Environment: [Browser/Device/OS]
-Steps to Reproduce:
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
-Expected Result: [Expected behavior]
-Actual Result: [Actual behavior]
-Severity: [Critical/Major/Minor/Cosmetic]
-Priority: [High/Medium/Low]
-Screenshots: [Attach if applicable]
-```
-
-## Test Sign-off
-- [ ] All test cases executed
-- [ ] All critical bugs fixed and retested
-- [ ] Test results documented
-- [ ] Stakeholder approval obtained

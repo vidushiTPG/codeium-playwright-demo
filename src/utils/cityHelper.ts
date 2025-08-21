@@ -1,22 +1,19 @@
 /**
- * Utility functions for working with Indian cities and dates
+ * Utility functions for handling Indian cities
  */
 
-/**
- * List of major Indian cities
- */
-const INDIAN_CITIES: readonly string[] = [
+// List of major Indian cities
+const INDIAN_CITIES: string[] = [
     'Mumbai',
     'Delhi',
     'Bengaluru',
-    'Hyderabad',
     'Chennai',
-    'Kolkata',
+    'Hyderabad',
     'Pune'
-] as const;
+];
 
 /**
- * Returns a random city from the list of major Indian cities
+ * Returns a randomly selected Indian city from the predefined list
  * @returns {string} A random Indian city name
  */
 export function getRandomIndianCity(): string {
@@ -25,27 +22,32 @@ export function getRandomIndianCity(): string {
 }
 
 /**
- * Returns the dates for the upcoming weekend (Saturday and Sunday)
- * @returns {{saturday: Date, sunday: Date}} Object containing Saturday and Sunday dates
+ * Returns all available Indian cities
+ * @returns {string[]} Array of all Indian cities
  */
-export function getWeekendDates(): { saturday: Date; sunday: Date } {
-    const today = new Date();
-    const currentDay = today.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
-    
-    // Calculate days until next Saturday (6 - currentDay)
-    const daysUntilSaturday = (6 - currentDay + 7) % 7 || 7;
-    
-    const saturday = new Date(today);
-    saturday.setDate(today.getDate() + daysUntilSaturday);
-    
-    const sunday = new Date(saturday);
-    sunday.setDate(saturday.getDate() + 1);
-    
-    return { saturday, sunday };
+export function getAllIndianCities(): string[] {
+    return [...INDIAN_CITIES];
 }
 
-// Example usage:
-// const city = getRandomIndianCity();
-// const { saturday, sunday } = getWeekendDates();
-// console.log(`Random Indian city: ${city}`);
-// console.log(`Next weekend: ${saturday.toDateString()} - ${sunday.toDateString()}`);
+/**
+ * Returns multiple random Indian cities without duplicates
+ * @param count - Number of cities to return (default: 3)
+ * @returns {string[]} Array of random Indian cities
+ */
+export function getMultipleRandomIndianCities(count: number = 3): string[] {
+    if (count >= INDIAN_CITIES.length) {
+        return [...INDIAN_CITIES];
+    }
+    
+    const shuffled = [...INDIAN_CITIES].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+}
+
+/**
+ * Checks if a given city is in the Indian cities list
+ * @param city - City name to check
+ * @returns {boolean} True if city is in the list
+ */
+export function isValidIndianCity(city: string): boolean {
+    return INDIAN_CITIES.includes(city);
+}

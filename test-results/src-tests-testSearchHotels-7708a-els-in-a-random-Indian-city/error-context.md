@@ -1,0 +1,182 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - link "Agoda logo Home link":
+      - /url: /en-in/
+      - img "Primary Logo"
+      - img "Site secondary logo"
+    - text: Bundle and save!
+    - link "Flight + Hotel":
+      - /url: /en-in/packages
+    - link "Hotels & Homes":
+      - /url: /en-in/
+    - text: New! Transport
+    - button "Menu"
+  - button "English / India":
+    - img "English / India"
+  - button "Rs."
+  - button "Sign in"
+  - button "Create account"
+  - button "Shopping cart"
+  - button "Menu":
+    - img
+- text:  0 choices
+- button "Check-in 30 Aug 2025 Saturday":  30 Aug 2025 Saturday
+- button "Check-out 31 Aug 2025 Sunday":  31 Aug 2025 Sunday
+- button "Guests and rooms 2 adults 1 room":  2 adults 1 room 
+- button "SEARCH"
+- button "Close"
+- img "null image"
+- text: Looking for instant coupons? Check out our Coupons & Deals page for today's discounts
+- link "See all coupons":
+  - /url: https://www.agoda.com/deals?cid=1897344
+- paragraph:
+  - combobox
+- region "Search filter": Making a selection within this region will cause content on this page to change. Product listings will update as each option is selected.
+- region "Announcement":
+  - img
+  - heading "Congratulations! You get an extra 5% OFF today." [level=5]
+  - paragraph: Just activate your coupon now to unlock this offer.
+  - button "Activate coupon"
+- heading "There was a problem completing your search." [level=2]
+- text: You can try again now, or if the problem persists, try your search at a later time.
+- button "TRY AGAIN":
+  - strong: TRY AGAIN
+- text: Page 1 of 1
+- navigation "breadcrumbs":
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /en-in/?asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb95vE72k%2BP%2BxBh%2FDDBQtZkH8kJs6R%2BD5NnNkJyVp0%2Fcs5XNkwiIS%2BhfNEQSwhHZMhqER70PE5FPstNiYuYX589sm22IQLX1WPksKVIOcf0AOGflsXSKDHf5msaSyruRAsxWB%2BZa6XN%2FI4bVQhJf5suk7UAy%2Bmn3ji1RZa4POjRC1U%3D
+    - listitem:
+      - link "World":
+        - /url: /en-in/world.html?asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb95vE72k%2BP%2BxBh%2FDDBQtZkH8kJs6R%2BD5NnNkJyVp0%2Fcs5XNkwiIS%2BhfNEQSwhHZMhqER70PE5FPstNiYuYX589sm22IQLX1WPksKVIOcf0AOGflsXSKDHf5msaSyruRAsxWB%2BZa6XN%2FI4bVQhJf5suk7UAy%2Bmn3ji1RZa4POjRC1U%3D
+      - text: (58,15,794)
+    - listitem:
+      - link "India":
+        - /url: /en-in/country/india.html?asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb95vE72k%2BP%2BxBh%2FDDBQtZkH8kJs6R%2BD5NnNkJyVp0%2Fcs5XNkwiIS%2BhfNEQSwhHZMhqER70PE5FPstNiYuYX589sm22IQLX1WPksKVIOcf0AOGflsXSKDHf5msaSyruRAsxWB%2BZa6XN%2FI4bVQhJf5suk7UAy%2Bmn3ji1RZa4POjRC1U%3D
+      - text: (2,72,326)
+    - listitem:
+      - link "Uttar Pradesh":
+        - /url: /en-in/region/uttar-pradesh-state-in.html?asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb95vE72k%2BP%2BxBh%2FDDBQtZkH8kJs6R%2BD5NnNkJyVp0%2Fcs5XNkwiIS%2BhfNEQSwhHZMhqER70PE5FPstNiYuYX589sm22IQLX1WPksKVIOcf0AOGflsXSKDHf5msaSyruRAsxWB%2BZa6XN%2FI4bVQhJf5suk7UAy%2Bmn3ji1RZa4POjRC1U%3D
+      - text: (0)
+    - listitem:
+      - link "Lucknow":
+        - /url: /en-in/city/lucknow-in.html?asq=u2qcKLxwzRU5NDuxJ0kOF3T91go8JoYYMxAgy8FkBH1BN0lGAtYH25sdXoy34qb95vE72k%2BP%2BxBh%2FDDBQtZkH8kJs6R%2BD5NnNkJyVp0%2Fcs5XNkwiIS%2BhfNEQSwhHZMhqER70PE5FPstNiYuYX589sm22IQLX1WPksKVIOcf0AOGflsXSKDHf5msaSyruRAsxWB%2BZa6XN%2FI4bVQhJf5suk7UAy%2Bmn3ji1RZa4POjRC1U%3D
+      - text: (2,000)
+    - listitem
+- button "Download App":
+  - img
+- contentinfo:
+  - heading "Help" [level=2]
+  - list:
+    - listitem:
+      - link "Help center":
+        - /url: /en-in/info/contact.html
+        - paragraph: Help center
+    - listitem:
+      - link "FAQs":
+        - /url: /en-in/info/contact.html
+        - paragraph: FAQs
+    - listitem:
+      - link "Privacy policy":
+        - /url: /en-in/info/privacy.html
+        - paragraph: Privacy policy
+    - listitem:
+      - link "Cookie policy":
+        - /url: /en-in/info/privacy.html#cookies
+        - paragraph: Cookie policy
+    - listitem:
+      - link "Terms of use":
+        - /url: /en-in/info/termsofuse.html
+        - paragraph: Terms of use
+    - listitem:
+      - link "Manage cookie settings":
+        - /url: /en-in/privacy-settings
+        - paragraph: Manage cookie settings
+    - listitem:
+      - link "Digital Services Act (EU)":
+        - /url: /en-in/info/eu-digital-services-act.html
+        - paragraph: Digital Services Act (EU)
+    - listitem:
+      - link "Content guidelines & reporting":
+        - /url: /en-in/info/eu-digital-services-act.html#CM
+        - paragraph: Content guidelines & reporting
+    - listitem:
+      - link "Modern Slavery Statement":
+        - /url: //www.bookingholdings.com/modern-slavery-statement/
+        - paragraph: Modern Slavery Statement
+  - heading "Company" [level=2]
+  - list:
+    - listitem:
+      - link "About us":
+        - /url: /en-in/about-agoda
+        - paragraph: About us
+    - listitem:
+      - link "Careers":
+        - /url: //careersatagoda.com
+        - paragraph: Careers
+    - listitem:
+      - link "Press":
+        - /url: //mediaroom.agoda.com
+        - paragraph: Press
+    - listitem:
+      - link "Blog":
+        - /url: /blog
+        - paragraph: Blog
+    - listitem:
+      - link "PointsMAX":
+        - /url: //www.agoda.com/en-in/pointsmax.html
+        - paragraph: PointsMAX
+  - heading "Destinations" [level=2]
+  - list:
+    - listitem:
+      - link "Countries/Territories":
+        - /url: //www.agoda.com/en-in/world.html
+        - paragraph: Countries/Territories
+    - listitem:
+      - link "All Flight Routes":
+        - /url: //www.agoda.com/en-in/flights/world.html
+        - paragraph: All Flight Routes
+  - heading "Partner with us" [level=2]
+  - list:
+    - listitem:
+      - link "YCS partner portal":
+        - /url: ////ycs.agoda.com/en-in
+        - paragraph: YCS partner portal
+    - listitem:
+      - link "Partner Hub":
+        - /url: //partnerhub.agoda.com/
+        - paragraph: Partner Hub
+    - listitem:
+      - link "Advertise on Agoda":
+        - /url: //partnerhub.agoda.com/advertising-solutions/
+        - paragraph: Advertise on Agoda
+    - listitem:
+      - link "Affiliates":
+        - /url: ////partners.agoda.com/en-in/index.html
+        - paragraph: Affiliates
+    - listitem:
+      - link "Agoda API Documentation":
+        - /url: //developer.agoda.com/
+        - paragraph: Agoda API Documentation
+  - heading "Get the app" [level=2]
+  - list:
+    - listitem:
+      - link "iOS app":
+        - /url: //app.appsflyer.com/id440676901?pid=direct&c=hotel_page_footer&af_siteid=1716632&site_id=1716632&af_sub1=desktop
+        - paragraph: iOS app
+    - listitem:
+      - link "Android app":
+        - /url: //app.appsflyer.com/com.agoda.mobile.consumer?pid=direct&c=hotel_page_footer&af_siteid=1716632&site_id=1716632&af_sub1=desktop
+        - paragraph: Android app
+  - paragraph: All material herein © 2005–2025 Agoda Company Pte. Ltd. All Rights Reserved.
+  - paragraph: Agoda is part of Booking Holdings Inc., the world leader in online travel & related services.
+  - img "Agoda logo"
+  - img "Priceline logo"
+  - img "Kayak logo"
+  - img "Booking.com logo"
+  - img "Open Table logo"
+```
